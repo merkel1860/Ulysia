@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Ulysia</string>
     <string name="appTitle">Tascherechner</string>
+    <string name="btnPlus">+</string>
+    <string name="btnMinus">-</string>
+    <string name="btnDivide">/</string>
+    <string name="btnMultiple">*</string>
+    <string name="resultTextView">Result =</string>
+    <string name="hintValue">0</string>
 </resources>

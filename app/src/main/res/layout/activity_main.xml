@@ -26,7 +26,7 @@
             android:id="@+id/oprand1ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="0"
+            android:hint="@string/hintValue"
             android:inputType="numberDecimal"
             android:textAlignment="viewEnd"
             />
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/oprand1ID"
-            android:hint="0"
+            android:hint="@string/hintValue"
             android:inputType="numberDecimal"
             android:textAlignment="viewEnd"
             />
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:text="+"
+            android:text="@string/btnPlus"
             android:textSize="20sp"
             android:textStyle="bold"
             />
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
             android:layout_toRightOf="@+id/addID"
-            android:text="-"
+            android:text="@string/btnMinus"
             android:textSize="20sp"
             android:textStyle="bold"
             />
@@ -71,8 +71,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:layout_toRightOf="@+id/subsID"
-            android:text="/"
+            android:layout_toEndOf="@+id/subsID"
+            android:text="@string/btnDivide"
             android:textSize="20sp"
             android:textStyle="bold"
             />
@@ -82,7 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_toRightOf="@+id/divID"
-            android:text="*"
+            android:text="@string/btnMultiple"
             android:textSize="20sp"
             android:textStyle="bold"
             />
@@ -93,7 +93,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/displayButtons"
         android:layout_centerHorizontal="true"
-        android:text="Result ="
+        android:text="@string/resultTextView"
         android:textSize="22sp"
         android:textStyle="bold" />
 </RelativeLayout>
